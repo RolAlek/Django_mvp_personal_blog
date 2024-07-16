@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-mvp-personal-blog"
+version = "0.1.0"
+description = "Djangp MVP application"
+authors = ["Aleksandr Rol <rolaleksandr75@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "3.2.16"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.0"
+pyflakes = "^3.2.0"
+pytest = "^8.2.2"
+pytest-django = "^4.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
