@@ -1,0 +1,1 @@
+# django_mvp_personal_blog
